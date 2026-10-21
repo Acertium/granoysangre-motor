@@ -1,0 +1,47 @@
+Licencia MIT — el motor de Grano y Sangre
+
+Copyright (c) 2026 Acertium
+
+ALCANCE. Esta licencia cubre EXACTAMENTE estos ficheros y ningún otro:
+
+    motor/engine.js         la simulación
+    motor/azar.js           el generador de azar reproducible
+    motor/mesa.js           el banco de intervenciones y la mesa del día
+    motor/best-config.json  las constantes certificadas
+
+    motor/huella.js         la huella del motor: comprobar que es este
+    motor/certify.js        los criterios de aceptación y sus bandas
+    motor/snapshot.js       congelar una referencia
+    motor/comparar.js       comparar contra esa referencia
+
+Los cuatro primeros son lo que hace falta para reproducir una era. Los cuatro
+siguientes son lo que hace falta para comprobar que el motor es el que dice ser,
+y van incluidos a propósito: verificar sin poder verificar la herramienta de
+verificación no es verificar.
+
+La frontera no es la carpeta `motor/`, que contiene además los grabados y la
+prensa. Es esta lista, y `motor/licencia.js` comprueba que se sostiene: ninguno
+de estos ficheros puede depender de uno cerrado.
+
+Cualquier otro fichero del repositorio queda bajo `LICENSE`.
+
+---
+
+Por la presente se concede permiso, sin cargo, a cualquier persona que obtenga
+una copia de los ficheros listados arriba y de la documentación asociada (el
+"Software"), a utilizar el Software sin restricción, incluidos sin limitación
+los derechos a usar, copiar, modificar, fusionar, publicar, distribuir,
+sublicenciar y/o vender copias del Software, y a permitir a las personas a las
+que se les proporcione el Software que hagan lo mismo, con sujeción a las
+siguientes condiciones:
+
+El aviso de copyright anterior y este aviso de permiso se incluirán en todas las
+copias o partes sustanciales del Software.
+
+EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O
+IMPLÍCITA, INCLUIDAS, ENTRE OTRAS, LAS GARANTÍAS DE COMERCIABILIDAD, IDONEIDAD
+PARA UN FIN DETERMINADO Y NO INFRACCIÓN. EN NINGÚN CASO LOS AUTORES O TITULARES
+DEL COPYRIGHT SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑO U OTRA
+RESPONSABILIDAD, YA SEA EN UNA ACCIÓN CONTRACTUAL, EXTRACONTRACTUAL O DE OTRO
+TIPO, DERIVADA DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O SU USO U OTRAS
+OPERACIONES EN EL SOFTWARE.
